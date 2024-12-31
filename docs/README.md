@@ -40,6 +40,7 @@ The **Global Disaster Application** is an IoT-based platform designed to manage 
 ├── iot/                # IoT device integration (MQTT, sensors, etc.)
 ├── database/           # Database initialization and configuration scripts
 ├── docs/               # Documentation, designs, and related resources
+│   ├── sprints/        # Sprint-specific documentation (e.g., sprint1.md, sprint2.md)
 ├── tests/              # Testing scripts for backend and frontend
 ```
 
