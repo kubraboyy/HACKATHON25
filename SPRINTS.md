@@ -45,7 +45,9 @@
   - **API Framework:** Django Rest Framework (DRF)
   - **Real-Time Communication:** Django Channels (WebSocket)
 - **Database:** PostgreSQL
-- **IoT Platform:** TBD
+- **IoT Platform:** AWS IoT Core
+  - **Protokoller:** MQTT, HTTP/HTTPS
+  - **Entegrasyon:** Amazon S3 (Depolama), DynamoDB (Gerçek zamanlı veri)
 - **Cloud Hosting:** AWS (Elastic Beanstalk or EC2)
 - **Storage:** Amazon S3 (django-storages)
 
