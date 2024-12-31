@@ -7,8 +7,8 @@
 |-----------------------|----------------------|--------------------|
 | **Kübra Boyacı**      | Team Leader          | Project Manager (P.M.) |
 | **Mete Ülken**        | Assistant Leader     | Lead Developer     |
-| **Yusuf Can Yıldırım**| Developer            | Developer          |
-| **Burak Öntürk**      | Developer            | Developer          |
+| **Yusuf Can Yıldırım**| Developer            | Mobile Developer   |
+| **Burak Öntürk**      | Developer            | IoT and Web Developer |
 
 ---
 
@@ -39,15 +39,16 @@
 
 ### Tech Stack
 - **Frontend:** 
-  - **Web:** React.js (JavaScript/TypeScript)
-  - **Mobile:** Flutter (Dart)
-- **Backend:** Django (Python)
+  - **Web (Burak):** React.js (JavaScript/TypeScript)
+  - **Mobile (Yusuf):** Flutter (Dart)
+- **Backend and Data (Mete):** Django (Python)
   - **API Framework:** Django Rest Framework (DRF)
   - **Real-Time Communication:** Django Channels (WebSocket)
-- **Database:** PostgreSQL
-- **IoT Platform:** Eclipse Mosquitto
+  - **Database:** PostgreSQL
+- **IoT (Burak):** Eclipse Mosquitto
   - **Protocols:** MQTT, HTTP/HTTPS
   - **Integration:** InfluxDB (Data storage), Grafana (Visualization)
+- **Presentation (Kübra):** Responsible for presenting project outcomes.
 - **Hosting:** Local (Self-hosted for prototyping purposes)
 - **Storage:** Local disk or lightweight database solutions (e.g., SQLite for testing)
 
