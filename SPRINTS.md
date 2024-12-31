@@ -46,8 +46,8 @@
   - **Real-Time Communication:** Django Channels (WebSocket)
 - **Database:** PostgreSQL
 - **IoT Platform:** AWS IoT Core
-  - **Protokoller:** MQTT, HTTP/HTTPS
-  - **Entegrasyon:** Amazon S3 (Depolama), DynamoDB (Gerçek zamanlı veri)
+  - **Protocols:** MQTT, HTTP/HTTPS
+  - **Integration:** Amazon S3 (Storage), DynamoDB (Real-time data)
 - **Cloud Hosting:** AWS (Elastic Beanstalk or EC2)
 - **Storage:** Amazon S3 (django-storages)
 
