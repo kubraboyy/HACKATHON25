@@ -32,24 +32,27 @@
 - Collaborate with potential mentors and stakeholders for feedback.
 
 #### **Pending Decisions:**
-- Determine specific IoT platform to integrate.
-- Finalize frontend and backend frameworks.
-- Choose a suitable database and cloud storage service.
+- Finalize IoT platform to integrate.
 - Define evaluation criteria for weekly progress in line with Hackathon requirements.
 
 ---
 
 ### Tech Stack
-- **Frontend:** TBD
-- **Backend:** TBD
-- **Database:** TBD
+- **Frontend:** 
+  - **Web:** React.js (JavaScript/TypeScript)
+  - **Mobile:** Flutter (Dart)
+- **Backend:** Django (Python)
+  - **API Framework:** Django Rest Framework (DRF)
+  - **Real-Time Communication:** Django Channels (WebSocket)
+- **Database:** PostgreSQL
 - **IoT Platform:** TBD
+- **Cloud Hosting:** AWS (Elastic Beanstalk or EC2)
+- **Storage:** Amazon S3 (django-storages)
 
 ---
 
 ### Notes
 - This sprint is designed to lay the foundation of the project and clarify responsibilities among team members.
-- Task distribution and a detailed schedule for the next steps will be discussed in the next meeting.
 - Weekly updates will include:
   - Progress on development tasks.
   - Feedback from mentors and stakeholders.
