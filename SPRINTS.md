@@ -45,11 +45,11 @@
   - **API Framework:** Django Rest Framework (DRF)
   - **Real-Time Communication:** Django Channels (WebSocket)
 - **Database:** PostgreSQL
-- **IoT Platform:** AWS IoT Core
+- **IoT Platform:** Eclipse Mosquitto
   - **Protocols:** MQTT, HTTP/HTTPS
-  - **Integration:** Amazon S3 (Storage), DynamoDB (Real-time data)
-- **Cloud Hosting:** AWS (Elastic Beanstalk or EC2)
-- **Storage:** Amazon S3 (django-storages)
+  - **Integration:** InfluxDB (Data storage), Grafana (Visualization)
+- **Hosting:** Local (Self-hosted for prototyping purposes)
+- **Storage:** Local disk or lightweight database solutions (e.g., SQLite for testing)
 
 ---
 
