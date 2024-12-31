@@ -47,12 +47,12 @@ The **Global Disaster Application** is an IoT-based platform designed to manage 
 ---
 
 ## 🧑‍💻 Team Members
-| Name                  | Role                  | Responsibility     |
-|-----------------------|----------------------|--------------------|
-| **Kübra Boyacı**      | Team Leader          | Project Manager (P.M.) |
-| **Mete Ülken**        | Assistant Leader     | Lead Developer     |
-| **Yusuf Can Yıldırım**| Developer            | Mobile Developer   |
-| **Burak Öntürk**      | Developer            | IoT and Web Developer |
+| Name                  | Role                  | Responsibility     | GitHub Profile                       |
+|-----------------------|----------------------|--------------------|---------------------------------------|
+| **Kübra Boyacı**      | Team Leader          | Project Manager (P.M.) | [kubraboyy](https://github.com/kubraboyy) |
+| **Mete Ülken**        | Assistant Leader     | Lead Developer     | [meteulken](https://github.com/meteulken) |
+| **Yusuf Can Yıldırım**| Developer            | Mobile Developer   | [YusufCanYILDIRIM](https://github.com/YusufCanYILDIRIM) |
+| **Burak Öntürk**      | Developer            | IoT and Web Developer | [Dew-Hub](https://github.com/Dew-Hub) |
 
 ---
 
