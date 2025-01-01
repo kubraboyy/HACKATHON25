@@ -1,4 +1,3 @@
-.
 # Global Disaster Application
 
 ## 📖 Project Overview
