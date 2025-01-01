@@ -23,7 +23,7 @@
 - Determined that the application should operate on both **Web** and **Mobile** platforms.
 - Defined the project's main goal as creating an effective management and information-sharing system for large-scale disasters.
 
-#### **Day 3:**
+#### **Day 3: Meeting with KOSTÜ Computer Engineering Department**
 - **Researching GDPR (Greece) and KVKK (Turkey):**
   - Investigate differences in data privacy regulations to ensure compliance.
 - **IoT Device Connectivity:**
@@ -32,6 +32,8 @@
   - Investigating IoT devices communicating among themselves and creating networks with their own protocols.
 - **Literature Review Discussion:**
   - Reviewed existing literature and relevant studies related to IoT and disaster management systems.
+
+- Decisions were made during a meeting with **Dr. Mehmet Kara**, Assistant Professor of Information Security and Cryptology, Computer and Communication Networks at KOSTÜ Engineering Faculty.
 
 #### **Day 4:**
 _(Details will be added during the sprint)_
