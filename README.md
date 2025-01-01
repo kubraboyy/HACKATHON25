@@ -33,17 +33,17 @@ The **Global Disaster Application** is an IoT-based platform designed to manage 
 
 ## 📂 Folder Structure
 ```
-├── frontend/           # Frontend-related code
-│   ├── web/            # React.js web application
-│   ├── mobile/         # Flutter mobile application
-├── backend/            # Django-based backend services
-├── iot/                # IoT device integration (MQTT, sensors, etc.)
-├── database/           # Database initialization and configuration scripts
-├── docs/               # Documentation, designs, and related resources
-│   ├── sprints/        # Sprint-specific documentation (e.g., sprint1.md, sprint2.md)
-│   ├── greceeturkiyehackathon2025/  # Hackathon-related documents
-│   ├── readme/                      # Additional project documentation
-├── tests/              # Testing scripts for backend and frontend
+├── frontend/                         # Frontend-related code
+│   ├── web/                          # React.js web application
+│   ├── mobile/                       # Flutter mobile application
+├── backend/                          # Django-based backend services
+├── iot/                              # IoT device integration (MQTT, sensors, etc.)
+├── database/                         # Database initialization and configuration scripts
+├── docs/                             # Documentation, designs, and related resources
+│   ├── sprints/                      # Sprint-specific documentation (e.g., sprint1.md, sprint2.md)
+│   ├── greceeturkiyehackathon2025/   # Hackathon-related documents
+│   ├── readme/                       # Additional project documentation
+├── tests/                            # Testing scripts for backend and frontend
 ```
 
 ---
