@@ -23,6 +23,21 @@
 - Determined that the application should operate on both **Web** and **Mobile** platforms.
 - Defined the project's main goal as creating an effective management and information-sharing system for large-scale disasters.
 
+#### **Day 3:**
+_(Details will be added during the sprint)_
+
+#### **Day 4:**
+_(Details will be added during the sprint)_
+
+#### **Day 5:**
+_(Details will be added during the sprint)_
+
+#### **Day 6:**
+_(Details will be added during the sprint)_
+
+#### **Day 7:**
+_(Details will be added during the sprint)_
+
 #### **Additional Objectives:**
 - Align the project goals with the themes of the Greece-Türkiye Hackathon 2025, specifically focusing on:
   - **Disaster prevention and protection**
