@@ -24,7 +24,14 @@
 - Defined the project's main goal as creating an effective management and information-sharing system for large-scale disasters.
 
 #### **Day 3:**
-_(Details will be added during the sprint)_
+- **Researching GDPR (Greece) and KVKK (Turkey):**
+  - Investigate differences in data privacy regulations to ensure compliance.
+- **IoT Device Connectivity:**
+  - Exploring options for devices to communicate with users' phones via private networks or Bluetooth.
+- **Wireless Sensor Network:**
+  - Investigating IoT devices communicating among themselves and creating networks with their own protocols.
+- **Literature Review Discussion:**
+  - Reviewed existing literature and relevant studies related to IoT and disaster management systems.
 
 #### **Day 4:**
 _(Details will be added during the sprint)_
