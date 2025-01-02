@@ -1,10 +1,10 @@
 
 # Deprem Sonrası Kriz Yönetimi: IoT Tabanlı Kara Kutu Sistemi
 
-## 1. Proje Özeti
+## 1. Proje Özeti (sektördeki çözümlerden ayıran özellikler, problemi çözen hangi yöntemler var, bizim projemin farkı nedir)
 
 ### Amaç
-Deprem sonrası yıkılan binaların hızlı tespiti ve kurtarma ekiplerinin etkin şekilde yönlendirilmesi için IoT tabanlı bir kara kutu sistemi geliştirmek. 
+Afet sonrası hasar gören yapıların hızlı tespiti ve kurtarma ekiplerinin etkin şekilde yönlendirilmesi için IoT tabanlı bir kara kutu sistemi geliştirmek. 
 Bu sistem, aynı zamanda sel ve ısı algılama gibi afet senaryolarında da kullanılabilir.
 
 ### Sorun ve Çözüm Önerisi
@@ -29,6 +29,7 @@ Binaların çatısına yerleştirilecek IoT kara kutu cihazları ile:
 - **Deprem, ısı ve sel algılama** sensörleri sayesinde afet sonrası veriler toplanır.
 - Gerçek zamanlı olarak AFAD ekiplerine iletilir.
 - Bölgesel yoğunluk analizi yapılabilir.
+(diğer projeyle kıyasla)
 
 ### 2.2. Yerlilik ve Özgünlük Tarafı
 - **Özgünlük**: Birbirine bağlanabilen kutular sayesinde bölgeler arası bilgi aktarımı. Sensör entegrasyonu ile çoklu afet yönetimi.
@@ -46,7 +47,7 @@ Binaların çatısına yerleştirilecek IoT kara kutu cihazları ile:
 ### IoT Sensör ve Cihaz Teknolojileri
 - **Deprem Sensörleri**: Akselerometreler ile sarsıntı ölçümü.
 - **Isı ve Sel Sensörleri**: Çoklu afet tespiti.
-- **Bağlantı Teknolojileri**: LoRaWAN, Wi-Fi, LTE gibi düşük maliyetli ve dayanıklı seçenekler.
+- **Bağlantı Teknolojileri**: Bluetooth, LoRaWAN, Wi-Fi, LTE gibi düşük maliyetli ve dayanıklı seçenekler.
 
 ### Enerji Kaynakları
 - Güneş ve rüzgar enerjisi desteği.
@@ -77,7 +78,7 @@ Prototip kutular, belirlenen bölgelerde test edilecek ve AFAD’dan geri bildir
 ## 5. Gelecekteki Gelişmiş Özellikler
 
 - **Vatandaş Bildirimleri**: Mobil uygulama üzerinden afet bilgileri.
-- **Sağlık Durumu Paylaşımı**: Kullanıcıların izinlerine göre sağlık verilerinin AFAD’a iletilmesi.
+- **Sağlık Durumu Paylaşımı**: Kullanıcıların izinlerine göre sağlık verilerinin AFAD’a iletilmesi.(engelli bireylere ayrıcalık, kimlik kartları)
 - **Veri Paylaşımı**: Çatı kutularının topladığı ısı ve rüzgar verilerinin Meteoroloji’ye aktarılması.
 
 ---
