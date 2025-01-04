@@ -35,8 +35,11 @@
 
 - Decisions were made during a meeting with **Dr. Mehmet Kara**, Assistant Professor of Information Security and Cryptology, Computer and Communication Networks at KOSTÜ Engineering Faculty.
 
-#### **Day 4:**
-_(Details will be added during the sprint)_
+#### **Day 4: Online Team Meeting**  
+-Today, we held an online meeting with our team.  
+-During the meeting, we discussed the content of the presentation to be uploaded to the application form in detail and distributed tasks accordingly.  
+-Each team member was assigned responsibilities for specific sections of the presentation, and a progress plan was outlined with a focus on time management.  
+-Additionally, we emphasized the importance of internal communication and regular follow-ups, creating a roadmap to clarify the next steps. 🚀  
 
 #### **Day 5:**
 _(Details will be added during the sprint)_
