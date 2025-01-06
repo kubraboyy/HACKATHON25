@@ -20,6 +20,11 @@
 | 1        | Literatür Araştırması      | Tüm Ekip       | Tamamlandı| IoT ve afet yönetim sistemleri üzerine literatür taraması yapıldı.        |
 | 2        | Teknoloji Yığını Belirleme | Mete           | Tamamlandı| Django, Flutter, React, MQTT gibi teknolojiler kullanılacak.             |
 | 3        | GDPR ve KVKK İncelemesi   | Kübra          | Devam Ediyor | Yasal gereklilikler ve gizlilik politikaları değerlendiriliyor.           |
+| 4        | Sunum Şablonu Belirleme| Kübra      | Tamamlandı| Uygun şablon belirlendi.   |
+| 5        |Sunuma Yönelik Renk Kodu Seçimi | Burak      | Tamamlandı| Sunum şablonuna uygun renk kodları dahil edildi.             |
+| 6        | Web Sitesi Tasarımı   | Mete         | Tamamlandı | Figma kullanılarak web sitesi tasarımı yapıldı.           |
+| 7        | Mobil Uygulama Tasarımı   | Yusuf        | Tamamlandı | Figma kullanılarak mobil uygulama tasarımı yapıldı.           |
+| 8        | Harita Tasarımı   | Burak        | Tamamlandı | Unreal kullanılarak harita tasarımı yapıldı.           |
 
 ---
 
