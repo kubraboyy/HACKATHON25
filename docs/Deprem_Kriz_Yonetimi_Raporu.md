@@ -1,96 +1,57 @@
+# Deprem Sonrası Kriz Yönetimi: IoT Tabanlı Akıllı Sistem Raporu
 
-# Deprem Sonrası Kriz Yönetimi: IoT Tabanlı Kara Kutu Sistemi
-
-## 1. Proje Özeti (sektördeki çözümlerden ayıran özellikler, problemi çözen hangi yöntemler var, bizim projemin farkı nedir)
+## 1. Proje Özeti
 
 ### Amaç
-Afet sonrası hasar gören yapıların hızlı tespiti ve kurtarma ekiplerinin etkin şekilde yönlendirilmesi için IoT tabanlı bir kara kutu sistemi geliştirmek. 
-Bu sistem, aynı zamanda sel ve ısı algılama gibi afet senaryolarında da kullanılabilir.
-
-### Sorun ve Çözüm Önerisi
-Deprem sonrası kurtarma ekiplerinin yıkılan binaları tespit etme süreci uzun sürebilmektedir. IoT tabanlı kara kutu sistemi sayesinde, bu süreç minimuma indirilerek ekiplerin yoğunluğa göre bölgelere öncelik sırası vermesi sağlanacaktır.
-
-### Nihai Faydalanıcılar
-- **AFAD** ve yerel yönetimler.
-- **Vatandaşlar**, mobil uygulama aracılığıyla afetle ilgili bilgilere erişebilecektir.
-- **Kolluk kuvvetleri** ve **Meteoroloji Genel Müdürlüğü**, gelecekteki potansiyel verilerden faydalanabilir.
+Deprem, sel gibi büyük çapta doğal afetler sonrasında, anında ve etkili müdahaleyi mümkün kılacak IoT tabanlı bir kriz yönetim sistemi geliştirmek. Sistem, sensörler aracılığıyla toplanan anlık verileri analiz ederek, hasar tespiti, yol durumu ve kurtarma önceliklerini belirleme gibi önemli kararların hızlıca alınmasını sağlar.
 
 ---
 
-## 2. Proje Fikrinin Açıklanması
+## 2. Problemin Tanımı ve Çözümümüz
 
-### 2.1. Çözüm Ürettiği Sorun / İhtiyaç
+### Problem
+Afetler sonrası şehirlerdeki yoğun panik ve bilgi eksikliği, kurtarma ekiplerinin etkili bir müdahale yapmasını zorlaştırıyor. Bu da can kaybı ve zararı artırıyor.
 
-#### Problem
-Deprem sonrası yıkılan binaların hızlı bir şekilde tespit edilememesi, kurtarma çalışmalarını geciktirmekte ve can kaybını artırmaktadır.
-
-#### Çözüm
-Binaların çatısına yerleştirilecek IoT kara kutu cihazları ile:
-- **Deprem, ısı ve sel algılama** sensörleri sayesinde afet sonrası veriler toplanır.
-- Gerçek zamanlı olarak AFAD ekiplerine iletilir.
-- Bölgesel yoğunluk analizi yapılabilir.
-(diğer projeyle kıyasla)
-
-### 2.2. Yerlilik ve Özgünlük Tarafı
-- **Özgünlük**: Birbirine bağlanabilen kutular sayesinde bölgeler arası bilgi aktarımı. Sensör entegrasyonu ile çoklu afet yönetimi.
-- **Yerlilik**: Kutuların üretiminde mümkün olduğunca milli kaynaklar kullanılacaktır. Maliyet yüksek olursa alternatif çözümler değerlendirilecektir.
-
-### 2.3. Hedef Kitle
-- **AFAD ve Yerel Yönetimler**: Ana faydalanıcılar.
-- **Vatandaşlar**: Mobil uygulama üzerinden bilgi ve uyarı alabilirler.
-- **Kolluk Kuvvetleri ve Meteoroloji Genel Müdürlüğü**: Gelecekteki geliştirme aşamalarında potansiyel kullanıcılar.
+### Çözüm
+IoT sensörleri ve yapay zeka desteği ile:
+- Yıkılan veya tehlikeli durumdaki binaları tespit eder.
+- Kapalı yolları ve alternatif güzergahları belirler.
+- Anlık durumu harita üzerinden hem halka hem de ekiplere sunar.
+- Elektrik ve internet bağlantısı olmasa dahi, yerel protokollerle veri aktarımı sağlar.
+- Enkaz altındaki bireylerin durum bildirimlerini IoT cihazları aracılığıyla ekiplere iletir.
 
 ---
 
-## 3. Kullanılacak Yöntem
+## 3. Teknik Yaklaşım
 
-### IoT Sensör ve Cihaz Teknolojileri
-- **Deprem Sensörleri**: Akselerometreler ile sarsıntı ölçümü.
-- **Isı ve Sel Sensörleri**: Çoklu afet tespiti.
-- **Bağlantı Teknolojileri**: Bluetooth, LoRaWAN, Wi-Fi, LTE gibi düşük maliyetli ve dayanıklı seçenekler.
-
-### Enerji Kaynakları
-- Güneş ve rüzgar enerjisi desteği.
-- Acil durumlar için dahili şarj edilebilir bataryalar.
+### IoT Teknolojileri
+- **Sensörler:** Deprem, ısı ve sel algılama sensörleri.
+- **Bağlantı Teknolojileri:** LoRaWAN, Wi-Fi, LTE gibi protokoller.
+- **Enerji Kaynakları:** Güneş ve rüzgar enerjisi destekli cihazlar.
 
 ### Yazılım Altyapısı
-- **Backend**: Django Rest Framework (Python).
-- **Mobil Uygulama**: Flutter.
-- **Veri Görselleştirme**: Grafana entegrasyonu.
-
-### Pilot Uygulama
-Prototip kutular, belirlenen bölgelerde test edilecek ve AFAD’dan geri bildirim alınacaktır.
+- **Backend:** Django Rest Framework.
+- **Mobil Uygulama:** Flutter.
+- **Veri Görselleştirme:** Grafana entegrasyonu.
 
 ---
 
 ## 4. Proje Takvimi
 
-| **Aşama**               | **Başlangıç Tarihi** | **Bitiş Tarihi**  | **Açıklama**                           |
-|-------------------------|---------------------|------------------|---------------------------------------|
-| Planlama ve Araştırma   | Ocak 2025          | Şubat 2025       | Teknik gereksinimlerin belirlenmesi. |
-| Prototip Üretimi        | Mart 2025          | Nisan 2025       | IoT kutularının üretilmesi.          |
-| Yazılım Geliştirme      | Nisan 2025         | Haziran 2025     | Backend ve mobil uygulama.           |
-| Pilot Uygulama          | Temmuz 2025        | Ağustos 2025     | Sahada testler ve iyileştirmeler.    |
-| Nihai Sunum ve Teslim   | Eylül 2025         | Eylül 2025       | Hackathon’a uygun final sunumu.      |
+| **Aşama**               | **Tarih**          | **Açıklama**                           |
+|-------------------------|-------------------|---------------------------------------|
+| Hackathon Online Aşaması | 14 Ocak 2025    | Takımların çalışması.                |
+| Yarı Final (Yerinde)    | 20-21 Şubat 2025 | Projelerin sunumu.                    |
+| Final ve Ödül Töreni   | 27 Şubat 2025   | Nihai sunum ve değerlendirme.          |
 
 ---
 
 ## 5. Gelecekteki Gelişmiş Özellikler
-
-- **Vatandaş Bildirimleri**: Mobil uygulama üzerinden afet bilgileri.
-- **Sağlık Durumu Paylaşımı**: Kullanıcıların izinlerine göre sağlık verilerinin AFAD’a iletilmesi.(engelli bireylere ayrıcalık, kimlik kartları)
-- **Veri Paylaşımı**: Çatı kutularının topladığı ısı ve rüzgar verilerinin Meteoroloji’ye aktarılması.
+- Gerçek zamanlı tehlike ve güvenli bölge bilgisi sunan akıllı haritalar.
+- Vatandaşların durum bilgilerinin kurtarma ekiplerine iletilmesi.
+- Akademik ve araştırma kurumları ile veri paylaşımı.
 
 ---
 
-## 6. Kaynakça
-
-1. **IoT Teknolojilerini Kullanan Afet Sonrası Yönetim Sistemi** - dergipark.org.tr
-2. **Depremde Hasar Gören Binaların Uzaktan Algılama Yöntemleriyle Tespiti** - tufuab.org.tr
-3. **Acil Durum ve Afet Yönetiminde Süreç Yaklaşımı ve Teknoloji** - dergipark.org.tr
-4. **3B Nokta Bulutlarından Deprem Sonrası Hasarlı Binaların Tespiti** - tdmd.org.tr
-5. **Deprem Sonrası Hasar Tespitinde Yeni Teknolojiler** - makinetamir.com
-6. **Digital Twin Based Disaster Management System Proposal: DT-DMS** - arxiv.org
-7. **A Survey on the Role of Wireless Sensor Networks and IoT in Disaster Management** - arxiv.org
-8. **Depremler ile Sigortacılık Sektörünün Dijital Dönüşümü** - tsb.org.tr
-9. **Afet Yönetimi için Coğrafi Tabanlı Deprem Ontolojisi** - dergipark.org.tr
+## 6. Sonuç
+Bu proje, doğal afetler sonrasında can kaybını azaltmak ve kriz yönetimini iyileştirmek amacıyla IoT ve yapay zeka teknolojilerinin etkili bir şekilde kullanılabileceğini göstermiştir. Yunanistan ve Türkiye arasındaki bu ortak çalışma, hem teknik hem de kültürel anlamda önemli katkılar sağlayacaktır.
